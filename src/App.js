@@ -2,15 +2,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//import components
+//imports components
 import Header from './components/header';
 import Contents from './components/contents';
 import Footer from './components/footer';
-
+//imports for navigation bar
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+//imports for routing
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
