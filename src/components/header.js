@@ -1,3 +1,5 @@
+//FUNCTIONAL COMPONENT
+//definition of component Header
 function Header(){
     return(
         <div>
@@ -5,5 +7,5 @@ function Header(){
         </div>
     );
 }
-
+//exporting the Header
 export default Header;
