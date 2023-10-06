@@ -1,3 +1,4 @@
+//import css files
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,8 +17,10 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
+    //Navigation bar
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
+        //creating navigation bar with buttons
           <Navbar.Brand href="/">Navbar</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
@@ -26,6 +29,7 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
+    //defining routes for each element and linking them to different contents
       <Routes>
         <Route path='/' element ={<Contents></Contents>}></Route>
         <Route path='/read' element ={<Header></Header>}></Route>
