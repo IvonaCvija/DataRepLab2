@@ -1,3 +1,5 @@
+//FUNCTIONAL COMPONENT
+//definition of component Footer
 function Footer(){
     return(
         <div>
@@ -5,5 +7,5 @@ function Footer(){
         </div>
     );
 }
-
+//exporting the Footer
 export default Footer;
